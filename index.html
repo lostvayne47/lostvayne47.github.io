@@ -1,16 +1,378 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Portfolio</title>
-    <link rel="stylesheet" href="./style.css"></link>
+    <link rel="stylesheet" href="./style.css">
+    </link>
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    </link>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    </link>
 </head>
+
 <body>
-    <h1>WELCOME TO MY PAGE</h1>
-    <p>HAVE A GOOD DAY</p>
-    <p>I AM A BOY</p>
-    <img src="images/kamui.jpg">
-    
+    <div id="navigation">
+        <img src="./images/transparent-png-images-1.png" alt="logo" width="80px" height="80px">
+        <ul id="nav-list">
+            <a href="#intro">
+                <li>Introduction</li>
+            </a>
+            <a href="#about me">
+                <li>About</li>
+            </a>
+            <a href="#projects">
+                <li>Projects</li>
+            </a>
+            <a href="#skills">
+                <li>Skills</li>
+            </a>
+            <a href="#exp">
+                <li>Experience</li>
+            </a>
+            <a href="#contact">
+                <li>Contact</li>
+            </a>
+        </ul>
+    </div>
+    <div id="intro" class="section">
+        <h1 style="color:white;font-size: 100px;background: content-box; background-color: teal; padding: 20px;">
+            Welcome To My Portfolio</h1>
+    </div>
+    <div id="content">
+        <div id="about me" class="section flex-layout">
+            <div><img src="images/image-transparent-png-7.png" width=500 height="500" alt="Profile"></div>
+            <div class="flex-right">
+                <h2 style="font-size:30px;">About Me</h2>
+                <p style="font-size:20px;"> Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <p style="font-size:20px; margin-bottom: 50px;">Contrary to popular belief, Lorem Ipsum is not simply
+                    random text. It has roots in a piece of
+                    classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin
+                    professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                    consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                    literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
+                    of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This
+                    book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of
+                    Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+                </p>
+                <div>
+                    <a href="https://www.instagram.com/aayush_kamtikar/" target="_blank"><span
+                            class="icon-style ion-social-instagram-outline"></span></a>
+                    <a href="mailto:aayushkamtikar@gmail.com" target="_blank"><span
+                            class="icon-style ion-social-google"></span></a>
+                    <a href="https://github.com/lostvayne47" target="_blank"><span
+                            class="icon-style ion-social-github"></span></a>
+                </div>
+                </p>
+            </div>
+
+        </div>
+        <div id="projects" class="section center">
+            <h2
+                style="font-weight: bold;color: white ; font-size: 50px;background: content-box; background-color: teal; padding: 20px;">
+                My Projects</h2>
+            <p style="font-size: 20px;"> It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                It was popularised in the 1960s
+                with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
+            <div class="project-container">
+                <div class="project-item">
+                    <img src="./images/peacepng.png" width=150>
+                    <h3 style="font-weight: bold; font-size: 30px;"> Peace Project</h3>
+                    <p style="font-size: 20px;">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                    </p>
+                    <button class="btn btn-primary">View Demo</button>
+                </div>
+                <div class="project-item">
+                    <img src="./images/X.png" width=150>
+                    <h3 style="font-weight: bold; font-size:30px;">Security Project</h3>
+                    <p style="font-size: 20px;">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry.Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                    </p>
+
+                    <button class="btn btn-primary">View Demo</button>
+                </div>
+                <div class="project-item">
+                    <img src="./images/Compass-rose-png-7.png" width=150>
+                    <h3 style="font-weight: bold; font-size: 30px;">Map Project</h3>
+                    <p style="font-size: 20px;">Lorem Ipsum is simply dummy text of the printing and
+                        typesetting industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s.
+                    </p>
+
+                    <button class="btn btn-primary">View Demo</button>
+                </div>
+            </div>
+        </div>
+        <div id="skills" class="section">
+            <h2
+                style=" text-align: center;font-weight: bold;color: white ; font-size: 50px;background: content-box; background-color: teal; padding: 20px;">
+                Why I'm Different</h2>
+            <div>
+                <p style="font-size: 20px;">Lorem Ipsum is simply dummy text of the printing and
+                    typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s
+                    with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop
+                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                </p>
+                <div class="skills-list">
+                    <div class="skills-item">
+                        <h3 style="font-weight: bold;font-size: 20px;">Quick Learner</h3>
+                        <p>It has survived not only five centuries, but also the
+                            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                            1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3 style="font-weight: bold;font-size: 20px;">Good Listener</h3>
+                        <p>It has survived not only five centuries, but also the
+                            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                            1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3 style="font-weight: bold;font-size: 20px;">Creative</h3>
+                        <p>It has survived not only five centuries, but also the
+                            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                            1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3 style="font-weight: bold;font-size: 20px;">Active</h3>
+                        <p>It has survived not only five centuries, but also the
+                            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                            1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3 style="font-weight: bold;font-size: 20px;">Meticulous</h3>
+                        <p>It has survived not only five centuries, but also the
+                            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                            1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                    <div class="skills-item">
+                        <h3 style="font-weight: bold;font-size: 20px;"> Cool Headed</h3>
+                        <p>It has survived not only five centuries, but also the
+                            leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                            1960s
+                            with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                            desktop
+                            publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+                    </div>
+                </div>
+                <div class="flex-layout center">
+                    <div><img src="./images/messi-logo.png" alt="Skills picture" width=700></div>
+                    <div class="flex-right">
+                        <h2 style="text-align: left;">My Skills</h2>
+                        <p style="text-align: left;">It was popularised in the 1960s with the release of Letraset sheets
+                            containing Lorem Ipsum
+                            passages,
+                            and more recentlywithpublishing software like Aldus PageMaker including versions of Lorem
+                            Ipsum.</p>
+                        <div>
+                            <p style="text-align: left;">Quick Learner</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                    style="width: 55%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p style="text-align: left;">Good Listener</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                    style="width: 90%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p style="text-align: left;">Creative</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                    style="width: 50%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p style="text-align: left;">Active</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                    style="width: 87%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p style="text-align: left;">Meticulous</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                    style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <p style="text-align: left;">Cool Headed</p>
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped bg-info" role="progressbar"
+                                    style="width: 67%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+        <div id="exp">
+            <h2
+                style="text-align: center;font-weight: bold;color: white ; font-size: 50px;background: content-box; background-color: teal; padding: 20px;">
+                My Experience</h2>
+            <div id="exp-content">
+                <div style="padding-right: 10px; margin-top: 20px;">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                        desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.Contrary to popular
+                        belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                        1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                        This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                        in
+                        their exact original form, accompanied by English versions from the 1914 translation by H.
+                        Rackham.
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                        1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                        This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                        in
+                        their exact original form, accompanied by English versions from the 1914 translation by H.
+                        Rackham.
+                    </p>
+                </div>
+                <div style="padding-right: 10px; margin-top: 20px;">
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been
+                        the
+                        industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of
+                        type
+                        and scrambled it to make a type specimen book. It has survived not only five centuries, but also
+                        the
+                        leap into electronic typesetting, remaining essentially unchanged. It was popularised in the
+                        1960s
+                        with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with
+                        desktop
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.Contrary to popular
+                        belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                        1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                        This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                        in
+                        their exact original form, accompanied by English versions from the 1914 translation by H.
+                        Rackham.
+                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
+                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
+                        Latin
+                        professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words,
+                        consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical
+                        literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and
+                        1.10.33
+                        of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC.
+                        This
+                        book is a treatise on the theory of ethics, very popular during the Renaissance. The first line
+                        of
+                        Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32.
+
+                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
+                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
+                        in
+                        their exact original form, accompanied by English versions from the 1914 translation by H.
+                        Rackham.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+        <div id="contact" class="section">
+            <h2
+                style=" text-align:center;font-weight: bold;color: white ; font-size: 50px;background: content-box; background-color: teal; padding: 20px;">
+                Contact Me</h2>
+            <h4 style="font-size:30px;text-align: center;padding-top: 50px;">Click on any of the following links to get
+                in touch with me.</h4>
+            <div class="flex-layout icon-style-contact">
+                <div class="flex-layout"><a href="https://www.instagram.com/aayush_kamtikar/" target="_blank"><span
+                            class=" icon-style-contact ion-social-instagram-outline"></span></a></div>
+
+                <div class="flex-layout"><a href="mailto:aayushkamtikar@gmail.com" target="_blank"><span
+                            class="icon-style-contact ion-email"></span></a></div>
+
+                <div class="flex-layout"><a href="https://www.facebook.com/Diavolo.Aayush/" target="_blank"><span
+                            class="icon-style-contact ion-social-facebook"></span></a></div>
+
+                <div class="flex-layout"><a href="https://github.com/lostvayne47" target="_blank"><span
+                            class="icon-style-contact ion-social-github"></span></a></div>
+
+
+            </div>
+
+        </div>
+
+    </div>
+
+
 </body>
+
 </html>
