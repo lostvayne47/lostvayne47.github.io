@@ -5,6 +5,10 @@ html{
     height: 800px;
     padding:100px;
 }
+.background-colour{
+    background-color:powderblue;
+    padding: 10px;
+}
 #intro{ 
     background-image: url("./images/computer.jpg"); 
     background-repeat: no-repeat; 
