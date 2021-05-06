@@ -1,9 +1,8 @@
 html{
     scroll-behavior:smooth;
+    zoom: 75%;
 }
-#my{
-zoom: 75%;
-}
+
 .section{
     height: 800px;
     padding:100px;
