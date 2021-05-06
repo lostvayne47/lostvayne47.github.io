@@ -1,6 +1,9 @@
 html{
     scroll-behavior:smooth;
 }
+#my{
+zoom: 100%;
+}
 .section{
     height: 800px;
     padding:100px;
